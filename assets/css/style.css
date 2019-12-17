@@ -1,0 +1,184 @@
+/*Fuenets*/
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed|Titillium+Web&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Titillium Web', sans-serif;
+    text-decoration: none;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+body{
+    background: url('../img/cubes.png');
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    text-transform: uppercase;
+    color: #3498db;
+}
+
+#logo{
+    text-align: center;
+    padding: 1em;
+}
+
+#menu{
+    margin: auto;
+    width: 80%;
+    background: linear-gradient(to bottom, #f9f9f9, #e9e9e9);
+    padding: 1em;
+    border-radius: 5px;
+}
+
+#menu ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    text-transform: uppercase;
+    padding: 0 1em;
+}
+
+#menu ul li a{
+    color: #000000;
+}
+
+#menu ul li a:hover{
+    color: #3498db;
+    border-bottom: 5px solid #3498db;
+}
+
+#princiapl a{
+    color: #000000;
+}
+
+#princiapl a:hover{
+    color: #3498db;
+
+}
+
+
+#contenedor{
+    width: 80%;
+    background: #f9f9f9;
+    margin: auto;
+    margin-top: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    min-height: 80vh;
+}
+
+.entrada{
+    margin: 15px;
+}
+
+.btn{
+    text-align: center;
+}
+
+.btn{
+    color: #f9f9f9 !important;
+    background: #3498db;
+    margin: 0.5em;
+    padding: 5px 15px;
+    border: none;
+    transition: background 0.5s;
+    display: block;
+}
+
+.btn:hover{
+    color: #3498db !important;
+    background: #f9f9f9;
+    transition: background 1s ease-out;
+    box-shadow: 0 0 5px 2px #3498db;
+}
+
+.btn-red{
+    background: #db5350 !important;
+}
+
+.btn-red:hover{
+    box-shadow: 0 0 5px 2px #db2e3b;
+    color: #db2e3b !important;
+    background: #f9f9f9 !important;
+}
+
+.btn-green{
+    background: #2adb62 !important;
+}
+
+.btn-green:hover{
+    box-shadow: 0 0 5px 2px #2adb62;
+    color: #2adb62 !important;
+    background: #f9f9f9 !important;
+}
+
+.btn-yellow{
+    background: #dbc93c !important;
+}
+
+.btn-yellow:hover{
+    box-shadow: 0 0 5px 2px #dbc93c;
+    color: #dbc93c !important;
+    background: #f9f9f9 !important;
+}
+
+#panel-control{
+    margin: 2px 0 10px -6px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#sidebar{
+    width: 40%;
+}
+
+#princiapl{
+    width: 60%;
+}
+
+.bloque{
+    display: block;
+    margin-left: 30%;
+}
+
+#bloque ,input[type = "text"], input[type = "email"], input[type = "password"],input[type = submit], label{
+    display: block;
+    margin-left: 5px;
+    min-width: 70%;
+}
+
+#pie{
+    text-align: center;
+    padding: 1em    ;
+}
+
+.alerta{
+    margin: 10px;
+    margin-left: -1px;
+    padding: 5px;
+    border: 1px solid #17db34;
+    background: #2adb62;
+    border-radius: 3px;
+    font-size: 0.9em;
+    color: #f9f9f9;
+}
+
+.alerta-error{
+    border: 1px solid #db2e3b;
+    background: #db5350;
+}
+
+.metadata{
+    color: #696969;
+    font-size: 0.9em;
+    margin-bottom: 5pz;
+}
